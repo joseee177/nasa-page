@@ -1,0 +1,95 @@
+body {
+  margin: 0 auto;
+  width: 850px;
+  box-sizing: border-box;
+}  
+
+main {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.imageContainer {
+  display: flex;
+  height: 450px;
+  margin: 15px;
+  background-image: url('NasaPhoto.jpg');
+  background-position: center;
+  font-family: 'Heebo', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 75px;
+  margin: auto;
+  
+}
+
+
+.infoContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+  margin: 15px;
+  background-color: #E6E6E6;
+
+}
+
+.infoContainer div {
+  height: 324px;
+  width: 270px;
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  line-height: 25px;
+  padding: 0;
+  margin: 0;
+} 
+
+h3{
+  font-family: 'Yantramanav', sans-serif;
+}
+
+h5 {
+  margin: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
+button{
+  max-width: 30%;
+  padding: 6px;
+  margin: 5px;
+  border: none;
+  background-color: #4D4D4E;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+
+}
+
+#textBox {
+  border: none;
+  resize: none;
+  margin: 0px 3px 3px 3px;
+}
+
+textarea {
+  height: 65px;
+}
+
+input {
+  height: 25px;
+}
+
+
