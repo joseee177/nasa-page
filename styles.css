@@ -10,7 +10,7 @@ main {
 
 }
 
-.imageContainer {
+.imageSection {
   display: flex;
   height: 450px;
   margin: 15px;
@@ -27,7 +27,7 @@ h1 {
 }
 
 
-.infoContainer {
+.infoSection {
   display: flex;
   justify-content: space-around;
   padding: 0px 20px;
